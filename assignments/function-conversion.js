@@ -3,22 +3,33 @@
 // let myFunction = function () {
 // console.log("Function was invoked!");
 // };
-// myFunction();
+  
+const myFunction = () => {
+    return 'Function was Invoked';
+}
+console.log(myFunction());
 
-// let anotherFunction = function (param) {
-//   return param;
-// };
-// anotherFunction("Example");
 
-// let add = function (param1, param2) {
-//   return param1 + param2;
-// };
-// add(1,2);
+let anotherFunction = (param) => {
+   return param;
+ };
 
-// let subtract = function (param1, param2) {
-//   return param1 - param2;
-// };
-// subtract(1,2);
+const anotherFunction = () => {
+    
+}
+console.log(anotherFunction());
+
+ let add = (param1, param2) => {
+   return param1 + param2;
+  };
+  add(1,2);
+
+
+
+ let subtract = (param1, param2) => {
+   return param1 - param2;
+   };
+  subtract(1,2);
 
 
 // Stretch
