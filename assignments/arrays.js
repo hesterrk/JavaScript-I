@@ -85,9 +85,7 @@ console.log(inventory[lastCar]);
 
 // ==== Challenge 3 ====
 // The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
-//let carModels = functioninventory();
-//let carModelsSorted = Functioninventory.sort("car_model");
-//console.log(carModels());
+
 
 let carModels = [];
  for (let i = 0; i < inventory.length; i++) {
@@ -96,7 +94,7 @@ let carModels = [];
  console.log(carModels);
 
 carModels.sort();
-//console.log(carModels);
+console.log(carModels);
 
 
 // ==== Challenge 4 ====
@@ -106,8 +104,7 @@ for (let i = 0; i < inventory.length; i++) {
   carYears.push(inventory[i].car_year);
 }
 
-
-//console.log(carYears);
+console.log(carYears);
 
 
 // ==== Challenge 5 ====
