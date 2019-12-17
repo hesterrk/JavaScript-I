@@ -85,9 +85,7 @@ console.log(inventory[lastCar]);
 
 // ==== Challenge 3 ====
 // The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
-//let carModels = functioninventory();
-//let carModelsSorted = Functioninventory.sort("car_model");
-//console.log(carModels());
+
 
 let carModels = [];
  for (let i = 0; i < inventory.length; i++) {
@@ -96,7 +94,7 @@ let carModels = [];
  console.log(carModels);
 
 carModels.sort();
-//console.log(carModels);
+console.log(carModels);
 
 
 // ==== Challenge 4 ====
@@ -106,8 +104,7 @@ for (let i = 0; i < inventory.length; i++) {
   carYears.push(inventory[i].car_year);
 }
 
-
-//console.log(carYears);
+console.log(carYears);
 
 
 // ==== Challenge 5 ====
@@ -126,6 +123,9 @@ console.log(oldCars);
 
 // ==== Challenge 6 ====
 // A buyer is interested in seeing only BMW and Audi cars within the inventory. Return an array that only contains BMW and Audi cars.  Once you have populated the BMWAndAudi array, use JSON.stringify() to show the results of the array in the console.
+
+
+
 let BMWAndAudi = [];
 for (let i = 0; i < inventory.length; i++) {
  if (inventory[i].car_make === "BMW" || inventory[i].car_make === "Audi") {
@@ -135,6 +135,3 @@ for (let i = 0; i < inventory.length; i++) {
 }
 }
 console.log(JSON.stringify(BMWAndAudi));
-
-
-
